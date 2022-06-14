@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  transition: all 0.3s ease-in;
 }
 
 body {
@@ -46,16 +47,11 @@ li, a, button {
 }
 
 .nav_links li a{
-  transition: 0.2s;
+  transition: border 0.1s ease-out;
 }
 
-.nav_links li a:hover::after{
-  position: absolute;
-  content: '';
-  display: flex;
-  width: 4rem;
-  height: 0.4rem;
-  background:#0cffff;
+.nav_links li a:hover{
+  border-bottom: 0.2rem solid #0cffff;
 }
 
 .account {
@@ -76,7 +72,7 @@ li, a, button {
 }
 
 .account:hover {
-  background: transparent;
+  filter:brightness(.9);
 }
 
 main {
@@ -139,11 +135,11 @@ main {
   color: #fff;
   gap: 3rem;
   text-decoration: none;
-  transition: 2s;
+  transition: 0.4s ease-out;
 }
 
 .button:hover {
-  background: transparent;
+  filter:brightness(.9);
 }
 
 .movies {
@@ -193,6 +189,7 @@ section h2 {
   font-weight: 700;
   line-height: 3.4rem;
   padding-bottom: 3rem;
+  margin: auto 4.4rem;
 }
 
 .movies-players {
@@ -204,14 +201,20 @@ section h2 {
   height: 14.9rem;
   border-radius: 0.8rem;
   position: relative;
-  margin-right: 4.4rem;
+  margin: auto 4.4rem;
   min-height: 15rem;
   cursor: pointer;
-  transition: 0.2s;
+  transition: border 0.2s ease-out;
 }
 
+
+.movies-players:nth-child(6) {
+  margin-bottom: 3rem;
+}
+
+
 .movies-players:hover {
-border-left: 0.5rem solid #fff;
+  transform:scale(1.1)
 }
 
 .thumbnail {

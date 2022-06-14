@@ -21,7 +21,7 @@ As seguintes tecnologias foram utilizadas:
 
 ## 🚧 Projeto
 
-https://iurihenriq.github.io/RedesingDisneyPlus/
+Link do projeto no ar: https://iurihenriq.github.io/RedesingDisneyPlus/
 
 
 
