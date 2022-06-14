@@ -19,64 +19,16 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 header .logo img {
   width: 13rem;
   height: 7.4rem;
-  cursor: pointer;
 }
 
-li, a, button {
-  font-weight: 500;
-  font-size: 2.2rem;
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav_links {
-  list-style: none;
-
-}
-
-.nav_links li {
-  display: inline-block;
-  padding: 0 2rem;
-}
-
-.nav_links li a{
-  transition: 0.2s;
-}
-
-.nav_links li a:hover::after{
-  position: absolute;
-  content: '';
-  display: flex;
-  width: 4rem;
-  height: 0.4rem;
-  background:#0cffff;
-}
-
-.account {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 5rem;
-  height: 5rem;
-  border: none;
-  border-radius: 5rem;
-  background: linear-gradient(154.23deg, #0f3a7b -58.45%, #0cffff 374.49%);
-  box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.160784);
-}
-
-.account img {
-  height: 80%;
-  width: 80%;
-}
-
-.account:hover {
-  background: transparent;
+header .menu img {
+  width: 4.6rem;
+  height: 2.7rem;
 }
 
 main {
@@ -85,8 +37,8 @@ main {
   justify-content: space-between;
 }
 
-.info {
-  padding-top: 6rem;
+section .info {
+  padding-top: 14.1rem;
 }
 
 .release {
@@ -139,11 +91,15 @@ main {
   color: #fff;
   gap: 3rem;
   text-decoration: none;
-  transition: 2s;
 }
 
 .button:hover {
   background: transparent;
+}
+
+section .movies {
+  display: flex;
+  flex-direction: column;
 }
 
 .movies {
@@ -207,11 +163,11 @@ section h2 {
   margin-right: 4.4rem;
   min-height: 15rem;
   cursor: pointer;
-  transition: 0.2s;
 }
 
 .movies-players:hover {
 border-left: 0.5rem solid #fff;
+
 }
 
 .thumbnail {
