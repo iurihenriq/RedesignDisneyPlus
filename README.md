@@ -25,7 +25,7 @@ Link do projeto no ar: https://iurihenriq.github.io/RedesingDisneyPlus/
 
 
 
-## 🎨 Inspiração:
+## 🎨 Inspiração
 
 Figma: https://www.figma.com/file/AfcZjKNRxDWOSSI0vrnrls/Disney%2B-Streaming-Redesign-(Community)
 
