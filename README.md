@@ -6,26 +6,25 @@
   <img alt="" src=".github/preview.png" width="100%">
 </p>
 
-<br/>
+<p>Esse projeto foi desenvolvido com o intuido de apresentar um redesing do streaming Disney+</p>
 
----
+
+
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+As seguintes tecnologias foram utilizadas:
 
 - HTML
 - CSS
 
-<br/>
 
----
+
 ## 🚧 Projeto
 
-https://live-twitch-disney-plus-redesign.vercel.app/
+https://iurihenriq.github.io/RedesingDisneyPlus/
 
-<br/>
 
----
+
 ## 🎨 Inspiração:
 
 Figma: https://www.figma.com/file/AfcZjKNRxDWOSSI0vrnrls/Disney%2B-Streaming-Redesign-(Community)
