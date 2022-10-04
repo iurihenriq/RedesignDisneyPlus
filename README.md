@@ -1,5 +1,5 @@
 <h1 align="center">
-   Redesing Disney+
+   Redesign Disney+
 </h1>
 
 <p align="center">
