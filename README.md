@@ -6,7 +6,7 @@
   <img alt="" src=".github/preview.png" width="100%">
 </p>
 
-<p>Esse projeto foi desenvolvido com o intuito de apresentar um redesing do streaming Disney+</p>
+<p>Esse projeto foi desenvolvido com o intuito de apresentar um redesign do streaming Disney+</p>
 
 
 
